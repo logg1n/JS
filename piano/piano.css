@@ -1,0 +1,31 @@
+.div_w{
+    width: 50px;
+    height: 200px;
+    border: 1px black solid;
+    border-radius: 1px;
+    float: left;
+}
+
+.div_b{
+    position: relative;
+    width: 20px;
+    height: 110px;
+    border: 1px white solid;
+    border-radius: 1px;
+    float: left;
+    z-index: 3;
+    background: black;
+}
+/*
+head.div_b_2_1{
+    left: -32%;
+}
+.div_b_3_1{
+    left: -41.5%;
+}
+.div_b_2_2{
+    left: 0%;
+}
+.div_b_3_2{
+    left: 0%;
+}*/
