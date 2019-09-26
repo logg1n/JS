@@ -10,7 +10,8 @@
 window.onload = () => {
     const head = document.getElementsByClassName(`head`)[0];
         head.addEventListener(`keypress`, eventKey);
-        head.addEventListener('click', eventMouse);
+        head.addEventListener('mousedown', eventMouse);
+        //head.addEventListener('click', eventMouse);
     
     /**
      * ?TODO: Вешается фокус на  эелемент - body
@@ -58,7 +59,7 @@ window.onload = () => {
     }
 
     function eventMouse(event){
-        play(new Audio(), event.target.getAttribute(`data-src`)) 
+        play(new Audio(), event.target.getAttribute(`data-src`))
     }
 
     function eventKey(event){
